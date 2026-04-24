@@ -1,37 +1,29 @@
+
+
 import java.util.Locale;
 import java.util.Scanner;
 
-void main() {
+void main(){
 
-	// teste
-	Locale.setDefault(Locale.US);
-	Scanner sc = new Scanner(System.in);
+// teste
+Locale.setDefault(Locale.US);Scanner sc=new Scanner(System.in);
 
-	int x = sc.nextInt();
-	int y = sc.nextInt();
+int x=sc.nextInt();int y=sc.nextInt();
 
-	int sum = x + y;
+int sum=x+y;
 
-	System.out.println("SUM = " + sum);
+System.out.println("SUM = "+sum);
 
-	sc.close();
+sc.close();
 
 }
 
-public static int max(int x, int y, int z) {
-	int aux;
+public static int max(int x,int y,int z){int aux;
 
-	if (x > y && x > z) {
-		aux = x;
-	} else if (y > z) {
-		aux = y;
-	} else
-		aux = z;
+if(x>y&&x>z){aux=x;}else if(y>z){aux=y;}else aux=z;
 
-	return aux;
+return aux;
 
 }
 
-public static void showResult(int value) {
-	IO.println("Higher = " + value);
-}
+public static void showResult(int value){IO.println("Higher = "+value);}
