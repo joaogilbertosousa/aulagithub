@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 void main() {
 
-	//teste
+	//testar modificação
 	Locale.setDefault(Locale.US);
 	Scanner sc = new Scanner(System.in);
 
