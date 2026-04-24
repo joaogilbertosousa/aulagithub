@@ -2,6 +2,7 @@ import java.util.Scanner;
 
 void main() {
 
+	//teste
 	Locale.setDefault(Locale.US);
 	Scanner sc = new Scanner(System.in);
 
@@ -13,10 +14,9 @@ void main() {
 	int higher = max(a, b, c);
 	
 	showResult(higher);
-
-	sc.close();
 	
 
+	sc.close();
 
 }
 
